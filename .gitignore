@@ -1,5 +1,7 @@
 secret_password
 *~
+*.xxx
+target/*
 *.logdb/schema.rb
 tmp/*/*
 log/*

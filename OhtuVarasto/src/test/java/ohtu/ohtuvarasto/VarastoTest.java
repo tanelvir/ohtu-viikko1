@@ -77,7 +77,7 @@ public class VarastoTest {
     public void tilaeiYlity() {
         varasto.lisaaVarastoon(11);
         // varastossa pitäisi olla 10
-        assertEquals(9, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
     
     @Test

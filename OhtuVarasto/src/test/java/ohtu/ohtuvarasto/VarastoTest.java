@@ -84,7 +84,7 @@ public class VarastoTest {
     public void alkuSaldoeineg() {
         varasto = new Varasto(-12);
         //pitäisi olla 0
-        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(13, varasto.getSaldo(), vertailuTarkkuus);
     }
     
     @Test

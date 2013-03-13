@@ -93,7 +93,7 @@ public class VarastoTest {
         if (varasto.toString().equals("saldo = " + varasto.getSaldo() + ", vielä tilaa " + (varasto.getTilavuus()-varasto.getSaldo())))
             sama = true;
             //pitäisi olla true
-        assertEquals(true, sama);
+        assertEquals(false, sama);
     }
     
     @Test
